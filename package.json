@@ -1,0 +1,12 @@
+{
+  "name": "com.bazzagibbs.utility",
+  "version": "1.0.0",
+  "description": "Commonly used utility classes",
+  "displayName": "BazzaGibbs Utility",
+  "author": {
+    "name": "BazzaGibbs",
+    "email": "bazzagibbsdev@gmail.com",
+    "url": "https://bazzagibbs.itch.io"
+  },
+  "type": "library"
+}

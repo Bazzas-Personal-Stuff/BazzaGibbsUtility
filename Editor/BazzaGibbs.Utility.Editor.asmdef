@@ -1,0 +1,16 @@
+{
+    "name": "BazzaGibbs.Utility.Editor",
+    "rootNamespace": "BazzaGibbs.Utility",
+    "references": [
+        "GUID:44f851f146a289545a1357d44096833a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
