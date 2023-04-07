@@ -1,6 +1,8 @@
 ﻿# BazzaGibbs Utility
 
-Common utility classes for Unity
+Common utility classes for Unity.
+
+Full documentation is WIP.
 
 ## Installation
 
@@ -9,7 +11,13 @@ Common utility classes for Unity
 
 ## Features
 
+- [Vector Extensions](#vector-extensions)
 - [HelpBox Decorator Attribute](#helpbox-decorator-attribute)
+
+### Vector Extensions
+
+- `Vector2.ToTopDown() -> Vector3`
+- `Vector3.FromTopDown() -> Vector2`
 
 ### HelpBox Decorator Attribute
 
