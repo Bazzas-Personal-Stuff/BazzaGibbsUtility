@@ -19,13 +19,13 @@ namespace BazzaGibbs.Utility
         }
  
         private static MessageType GetMessageType(HelpBoxMessageType helpBoxMessageType) {
-            switch (helpBoxMessageType) {
-                default:
-                case HelpBoxMessageType.None: return MessageType.None;
-                case HelpBoxMessageType.Info: return MessageType.Info;
-                case HelpBoxMessageType.Warning: return MessageType.Warning;
-                case HelpBoxMessageType.Error: return MessageType.Error;
-            }
+            return helpBoxMessageType switch {
+                HelpBoxMessageType.None => MessageType.None,
+                HelpBoxMessageType.Info => MessageType.Info,
+                HelpBoxMessageType.Warning => MessageType.Warning,
+                HelpBoxMessageType.Error => MessageType.Error,
+                _ => MessageType.None
+            };
         }
     }
 }
