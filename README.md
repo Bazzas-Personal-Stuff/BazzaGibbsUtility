@@ -6,8 +6,23 @@ Full documentation is WIP.
 
 ## Installation
 
-1. Copy URL from GitHub's `<> Code` button
-2. Package Manager -> Add package from git URL
+### Option A: Scoped Registry
+
+All my public/open source packages are hosted on [my registry](https://registry.bazzagibbs.com).
+
+1. Install a Scoped Registry: `Project Settings > Package Manager > Scoped Registries`
+```
+Name:       BazzaGibbs
+URL:        https://registry.bazzagibbs.com
+Scope(s):   com.bazzagibbs
+```
+2. In the Package Manager, select "Add package by name", `com.bazzagibbs.utility`
+
+### Option B: Git URL
+
+Adding packages by Git URL has the downside of not properly displaying when there is a package update available.
+
+1. In the Package Manager, select "Add package from git URL", `https://github.com/Bazzas-Personal-Stuff/BazzaGibbsUtility.git`
 
 ## Features
 
